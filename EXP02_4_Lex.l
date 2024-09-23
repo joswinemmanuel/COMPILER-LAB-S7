@@ -25,3 +25,22 @@ int main() {
 	printf("Number of consonants are: %d\n", c);
 	return 0;
 }
+
+/*
+lex EXP02_4_Lex.l
+gcc lex.yy.c
+./a.out
+*/
+
+/*
+press Ctrl + d is output is not appearing
+*/
+
+/*
+Enter the string of vowels and consonants:
+acer
+
+Number of vowels are: 2
+Number of consonants are: 2
+
+*/
