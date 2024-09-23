@@ -58,7 +58,7 @@ int yywrap() {
 /*
 lex EXP02_2_Lex.l
 gcc lex.yy.c
-gcc lex.yy.c
+./a.out
 */
 
 /*
