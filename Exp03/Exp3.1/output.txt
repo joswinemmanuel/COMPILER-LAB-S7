@@ -1,0 +1,11 @@
+lex lexc.l
+yacc -d yac.y
+gcc lex.yy.c y.tab.c -lfl
+
+./a.out
+Enter the exp: a=b+c
+Valid expression
+
+./a.out
+Enter the exp: a+b=c
+Invalid string
