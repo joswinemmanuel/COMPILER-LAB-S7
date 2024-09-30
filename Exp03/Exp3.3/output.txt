@@ -1,0 +1,9 @@
+lex lexc.l
+yacc –d yac.y
+gcc lex.yy.c y.tab.c –lfl
+
+./a.out
+Enter Any Arithmetic Expression which can have operations Addition, Subtraction,Multiplication, Division, Modulus and Round brackets :
+10-2
+Result=8
+Entered arithmetic expression is Valid
