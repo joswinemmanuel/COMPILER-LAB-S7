@@ -1,0 +1,7 @@
+lex lexc.l
+yacc -d yac.y
+gcc lex.yy.c y.tab.c -lfl
+
+./a.out
+Enter a name to tested for identifier : joswin
+It is an identifier!
