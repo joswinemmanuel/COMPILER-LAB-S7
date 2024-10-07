@@ -55,3 +55,18 @@ int main(){
   
     return 0;
 }				
+
+/*
+gcc EXP04.c 
+./a.out
+
+Enter the no of states: 3
+
+Enter the states :q0 q1 q2
+
+Epsilon closure of q0 = {  q0 q1 q2 }
+
+Epsilon closure of q1 = {  q1 q2 }
+
+Epsilon closure of q2 = {  q2 }
+*/
