@@ -80,5 +80,5 @@ $E	  +id$	REDUCE TO E
 $E+	   id$	SHIFT->symbols
 $E+id	     $	SHIFT->id
 $E+E	     $	REDUCE TO E
-$E	     $	REDUCE TO E
+$E	     $	REDUCE TO E 
 */
