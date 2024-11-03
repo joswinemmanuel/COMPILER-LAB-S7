@@ -49,6 +49,12 @@ if(strcmp(op,"=")==0)
 }
 
 /*
+input.txt
++ a b t1
+* c d t2
+- t1 t2 t
+= t ? x
+
 gcc EXP09.c
 ./a.out
 Enter input file name: input.txt
